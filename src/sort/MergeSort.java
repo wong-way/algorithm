@@ -6,6 +6,16 @@ import java.util.Arrays;
  * Created by DELL on 2018-05-28.
  */
 public class MergeSort {
+    /**
+     *
+     * 最差时间复杂度 ---- O(nlogn)
+     * 最优时间复杂度 ---- O(nlogn)
+     * 平均时间复杂度 ---- O(nlogn)
+     * 所需辅助空间 ------ O(n)
+     * @param arr 排序的数组
+     * @param left 左边界
+     * @param right 右边界
+     */
     public void mergeSort(int arr[], int left, int right)    // 递归实现的归并排序(自顶向下)
     {
         if (left == right)    // 当待排序的序列长度为1时，递归开始回溯，进行merge操作
